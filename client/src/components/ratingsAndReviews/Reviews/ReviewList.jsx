@@ -244,7 +244,7 @@ class ReviewList extends React.Component {
 
       return (
         <div>
-          Search for reviews: <input type="text" onChange={(e) => { this.props.searchReviewFunc(e.target.value); }}></input>
+          {/* Search for reviews: <input type="text" onChange={(e) => { this.props.searchReviewFunc(e.target.value); }}></input> */}
           {reviewsHeading}
           {addFirstReviewButton}
           {reviewModalComponent}
